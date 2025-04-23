@@ -4,4 +4,4 @@ seaborn
 matplotlib
 missingno
 plotly
-
+nbformat
