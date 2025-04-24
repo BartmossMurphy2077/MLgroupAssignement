@@ -4,5 +4,5 @@ seaborn
 matplotlib
 missingno
 plotly
-nbformat
 pycountry
+sklearn
