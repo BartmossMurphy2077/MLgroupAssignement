@@ -5,3 +5,4 @@ matplotlib
 missingno
 plotly
 nbformat
+pycountry
