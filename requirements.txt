@@ -5,4 +5,5 @@ matplotlib
 missingno
 plotly
 pycountry
-sklearn
+scikit-learn
+nbformat==5.9.2
