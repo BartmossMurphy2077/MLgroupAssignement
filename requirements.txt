@@ -8,3 +8,5 @@ pycountry
 scikit-learn
 nbformat==5.9.2
 joypy
+minisom
+umap
