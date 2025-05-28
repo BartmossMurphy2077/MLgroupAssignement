@@ -20,12 +20,14 @@ pip install -r requirements.txt
 ## Usage
 
 1. Start the backend server:
+
 Open a terminal and run:
 ```bash
 python app.py
 ```
 
 2. Launch the frontend application:
+
 open your web browser and go to:
 ```bash
 http://localhost:5000/
