@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trafficking Predictor</title>
+  <script src="scripts.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { border-radius: 0 !important; }
+    .focus\:outline-red:focus { outline: 3px solid #c41230; outline-offset: -3px; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans antialiased">
+  <!-- Header -->
+  <header class="bg-black text-white py-4 px-6">
+    <h1 class="text-xl font-bold">Human Trafficking Risk Tool</h1>
+  </header>
+
+  <!-- Main Content -->
+  <div class="min-h-screen flex flex-col p-6">
+    <div class="flex flex-col lg:flex-row gap-6 flex-grow">
+      <!-- Input Panel -->
+      <section class="bg-gray-800 border border-gray-700 w-full lg:w-1/2 p-6 text-gray-200">
+        <h2 class="text-lg font-semibold mb-4">Inputs</h2>
+        <form id="input-form" class="space-y-4"></form>
+        <div class="flex gap-2 mt-4">
+          <button id="predict-btn"
+                  class="bg-blue-800 text-white font-bold py-2 px-4 hover:bg-blue-900 focus:outline-red">
+            Predict
+          </button>
+
+        </div>
+      </section>
+
+      <!-- Results Panel -->
+      <section class="bg-gray-800 border border-gray-700 w-full lg:w-1/2 p-6 text-gray-200">
+        <h2 class="text-lg font-semibold mb-4">Results</h2>
+        <div id="result" class="space-y-2 text-white"></div>
+      </section>
+    </div>
+
+    <footer class="mt-4 text-center text-gray-500">
+      © 2025 — Built with Purpose, Modeled on Government Design
+    </footer>
+  </div>
+</body>
+</html>
