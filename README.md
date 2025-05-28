@@ -44,6 +44,3 @@ The project includes several visualizations:
 ## License
 
 This project is licensed under the terms included in the LICENSE file.
-
-## Sources
-### Dataset from Kaggle, User Larxel, Link: https://www.kaggle.com/datasets/andrewmvd/global-human-trafficking/data 
